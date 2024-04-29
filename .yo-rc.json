@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "cbd-application-customizer",
+    "libraryId": "df3f36bf-afea-45ac-91bf-1a3a66223cb3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cbd-application-customizer",
+    "solutionShortDescription": "cbd-application-customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
