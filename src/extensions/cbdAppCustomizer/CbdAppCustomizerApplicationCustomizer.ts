@@ -36,7 +36,12 @@ export default class CbdAppCustomizerApplicationCustomizer extends BaseApplicati
 
   private bootstrap(): void {
     // initializeIcons();
-
+    if (!this.notifier) {
+      this.notifier = this.context.placeholderProvider.tryCreateContent(
+        PlaceholderName.Top,
+        { onDispose: this._onDispose }
+      );
+    }
     if (!this.header) {
       this.header = this.context.placeholderProvider.tryCreateContent(
         PlaceholderName.Top,
@@ -51,12 +56,7 @@ export default class CbdAppCustomizerApplicationCustomizer extends BaseApplicati
       );
     }
 
-    if (!this.notifier) {
-      this.notifier = this.context.placeholderProvider.tryCreateContent(
-        PlaceholderName.Top,
-        { onDispose: this._onDispose }
-      );
-    }
+
 
     ComponentManager.renderHeader(this.context, this.header!.domElement);
     ComponentManager.renderNotifier(this.context, this.notifier!.domElement);

@@ -1,0 +1,116 @@
+{
+  "menu": [
+    {
+      "title": "Home",
+      "url": "/pages/home.aspx"
+    },
+    {
+      "title": "Business Portal",
+      "url": "/pages/about-us.aspx",
+      "submenus": [
+        {
+          "title": "PGB",
+          "url": "/pages/our-team.aspx",
+          "submenus": [
+            { "title": "Conventional", "url": "/pages/about-us.aspx" },
+            { "title": "Islamic", "url": "/pages/about-us.aspx" }
+          ]
+        },
+        {
+          "title": "WBG",
+          "url": "/pages/our-history.aspx",
+          "submenus": [
+            { "title": "Conventional", "url": "/pages/about-us.aspx" },
+            { "title": "Islamic", "url": "/pages/about-us.aspx" }
+          ]
+        },
+        {
+          "title": "Support Services",
+          "url": "/pages/our-history.aspx",
+          "submenus": [
+            { "title": "Conventional", "url": "/pages/about-us.aspx" },
+            { "title": "Islamic", "url": "/pages/about-us.aspx" }
+          ]
+        },
+        {
+          "title": "Communication",
+          "url": "/pages/our-history.aspx"
+        }
+      ]
+    },
+    {
+      "title": "Policies & Procedures",
+      "url": "/pages/services.aspx",
+      "submenus": [
+        {
+          "title": "Delegation Matrix",
+          "url": "/pages/consulting.aspx"
+        },
+        {
+          "title": "Policies & Procedures Code",
+          "url": "/pages/support.aspx"
+        },
+        {
+          "title": "Forms & Checklists",
+          "url": "/pages/support.aspx"
+        },
+        {
+          "title": "Terms & Conditions",
+          "url": "/pages/support.aspx"
+        },
+        {
+          "title": "Important Circulars",
+          "url": "/pages/support.aspx"
+        },
+        {
+          "title": "Banking Directory",
+          "url": "/pages/support.aspx"
+        },
+        {
+          "title": "Notice Board",
+          "url": "/pages/support.aspx"
+        }
+      ]
+    },
+    {
+      "title": "Tool Box",
+      "url": "/pages/contact.aspx",
+      "submenus": [
+        {
+          "title": "CBD Fees & Charges",
+          "url": "/pages/our-team.aspx",
+          "submenus": [
+            { "title": "Conventional", "url": "/pages/about-us.aspx" },
+            { "title": "Islamic", "url": "/pages/about-us.aspx" }
+          ]
+        },
+        {
+          "title": "Correspondents Banks",
+          "url": "/pages/our-history.aspx",
+          "submenus": [
+            { "title": "Conventional", "url": "/pages/about-us.aspx" },
+            { "title": "Islamic", "url": "/pages/about-us.aspx" }
+          ]
+        },
+        {
+          "title": "Approved Companies",
+          "url": "/pages/our-history.aspx",
+          "submenus": [
+            { "title": "Approved Companies", "url": "/pages/about-us.aspx" },
+            { "title": "Approved Valuators", "url": "/pages/about-us.aspx" },
+            { "title": "Delisted Companies", "url": "/pages/about-us.aspx" },
+            { "title": "Rateb Companies", "url": "/pages/about-us.aspx" }
+          ]
+        },
+        {
+          "title": "Daily Rates",
+          "url": "/pages/our-history.aspx"
+        }
+      ]
+    },
+    {
+      "title": "BCM",
+      "url": "/pages/contact.aspx"
+    }
+  ]
+}

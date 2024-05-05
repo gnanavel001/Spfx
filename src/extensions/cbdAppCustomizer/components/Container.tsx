@@ -9,7 +9,7 @@ interface IContainer {
 export const Container: React.FunctionComponent<IContainer> = (props) => {
   return (
     <div className={`w-full h-fit ${props.classname || ""}`}>
-      <div className={`lg:container ${props.containerclassname || ""} `}>
+      <div className={`sm:container ${props.containerclassname || ""} `}>
         {props.children}
       </div>
     </div>
